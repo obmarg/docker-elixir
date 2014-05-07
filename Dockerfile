@@ -1,6 +1,5 @@
 FROM ubuntu:saucy
 
-RUN echo 'Acquire::http::Proxy "http://192.168.1.2:3142";' > /etc/apt/apt.conf.d/90-apt-cacher.conf
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get -y update
@@ -25,5 +24,4 @@ RUN make install
 
 WORKDIR /
 RUN rm -rf /tmp/erlang-build
-RUN rm -f /etc/apt/apt.conf.d/90-apt-cacher.conf
 RUN apt-get clean
