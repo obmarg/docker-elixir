@@ -5,8 +5,8 @@ A Dockerfile to build an elixir image.
 
 Currently installs:
 
-* Erlang R16B03-1 
-* Elixir 0.12.5
+* Erlang R17
+* Elixir 1.0.4
 
 
 ## Credit
