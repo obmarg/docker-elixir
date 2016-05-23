@@ -18,3 +18,5 @@ asdf install elixir ${ELIXIR_VERSION}
 asdf global elixir ${ELIXIR_VERSION}
 mix local.hex --force
 mix local.rebar --force
+
+echo "\nPATH=\$HOME/.asdf/bin:\$HOME/.asdf/shims:\$PATH\n" >> /root/.bashrc
