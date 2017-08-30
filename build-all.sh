@@ -19,4 +19,4 @@ asdf global elixir ${ELIXIR_VERSION}
 mix local.hex --force
 mix local.rebar --force
 
-echo "\nPATH=\$HOME/.asdf/bin:\$HOME/.asdf/shims:\$PATH\n" >> /root/.bashrc
+echo "PATH=\$HOME/.asdf/bin:\$HOME/.asdf/shims:\$PATH" >> /root/.bashrc
