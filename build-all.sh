@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
 export ERLANG_VERSION="18.2"
-export ELIXIR_VERSION="1.2.5"
+export ELIXIR_VERSION="1.2.6"
 
 apt-get -y update
 apt-get -y install wget git build-essential libncurses-dev libssl-dev openssl unzip
